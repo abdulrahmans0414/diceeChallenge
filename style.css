@@ -95,3 +95,30 @@ footer {
         font-size: 1.2rem;
     }
 }
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    img {
+        max-width: 150px;
+        border-radius: 15px;
+    }
+
+    #roll-button {
+        padding: 10px 30px;
+        font-size: 1.2rem;
+    }
+}

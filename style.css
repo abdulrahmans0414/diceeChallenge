@@ -1,5 +1,5 @@
 body {
-    background-color: #43484f;
+    background-color: #97b4de;
     font-family: 'Lobster', cursive;
     color: #010101;
     margin: 0;
@@ -36,21 +36,25 @@ img {
     max-width: 200px;
     height: auto;
     border-radius: 20px;
+   
 
 }
 
-/* .roll-button {
-    background-color: #212222;
-    color: #393E46;
+#roll-button {
+    background-color: #fff;
+    color: #030303;
     border: none;
+    border-radius: 7px;
     padding: 15px 40px;
     font-size: 1.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-} */
+    margin: 0 auto; 
+    display: block; 
+}
 
-.roll-button:hover {
-    background-color: #9aa1a0;
+#roll-button:hover {
+    background-color:#6590cd;
 }
 
 footer {
